@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5393825001117868463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6714406983573988557}
+  - component: {fileID: 2498288892590023777}
+  m_Layer: 0
+  m_Name: GameProgressManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6714406983573988557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393825001117868463}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2498288892590023777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393825001117868463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25effc8c8cfd5a64d8bea4404d0db413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventHandler_GameManager: {fileID: 0}
+  progressTimer: {fileID: 11400000, guid: 381516c2382d4be45a7a5da5d41e5fad, type: 2}
+  targetKillCount: 4
+  isKillComplete: 0
+  playerController: {fileID: 0}
+  gameTargetTip: "\u51FB\u8D25\u6240\u6709\u654C\u4EBA\u5E76\u9003\u79BB"
+  gameLaterTargetTip: "\u627E\u5230\u6B63\u95E8\u94A5\u5319\u5F00\u542F\u6B63\u95E8"
+  targetTipDisplayTime: 3
+  zombieControllerList: []
