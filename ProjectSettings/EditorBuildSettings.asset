@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 3c0490f2e216963478bf4a6299434146
+  - enabled: 1
+    path: Assets/Scenes/SceneLoader.unity
+    guid: 92caa809290e7dd4fb1840ff1410da59
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Abandoned_Hospital.unity
+    guid: 69e316de852154c438a15a6479aee378
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d90e7701a546bb842b6d46304492db9f,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: 3de25a9d917439f4d923b048287bc868, type: 2}
