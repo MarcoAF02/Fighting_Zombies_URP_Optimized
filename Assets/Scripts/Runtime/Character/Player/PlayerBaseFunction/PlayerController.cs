@@ -308,7 +308,7 @@ public class PlayerController : MonoBehaviour
 		capsuleBottomHemisphere = GetCapsuleBottomHemisphere();
 		capsuleTopHemisphere = GetCapsuleTopHemisphere(characterController.height);
 
-		// HACK: 画一个和玩家
+		// HACK: 画一个和玩家胶囊体一样大的胶囊体射线检测
 		if (Physics.CapsuleCast(capsuleBottomHemisphere, capsuleTopHemisphere, characterController.radius,
 			performMoveVector.normalized, out RaycastHit hit, performMoveVector.magnitude * Time.deltaTime, -1,
 			QueryTriggerInteraction.Ignore))
