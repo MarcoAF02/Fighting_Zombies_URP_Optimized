@@ -12,7 +12,7 @@ using UnityEngine;
 // }
 // OnDestroy() 也是一样的
 
-//游戏对象继承 Singleton 时，要把 游戏对象类 放在 < > 中
+// 游戏对象继承 Singleton 时，要把 游戏对象类 放在 < > 中
 
 /// <summary>
 /// 一般 Mono 单例类
