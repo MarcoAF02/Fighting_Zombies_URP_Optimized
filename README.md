@@ -1,4 +1,4 @@
-## Game Screenshot
+## Game Screenshot（游戏截图）
 ![主菜单图片 - 1](https://github.com/user-attachments/assets/c04a51ab-57d5-4418-aa90-0e31807fe80f)
 ![主菜单图片 - 3](https://github.com/user-attachments/assets/1d065f15-7795-4da7-ba41-116e85ffb4da)
 ![游戏内截图 - 6](https://github.com/user-attachments/assets/ae5ca540-23ba-4db4-bb3b-4f4f9b30f021)
