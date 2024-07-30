@@ -6,10 +6,10 @@
 ![游戏内截图 - 4](https://github.com/user-attachments/assets/783c5c17-17f3-4423-91d9-9ffbdfd3da81)
 ![游戏内截图 - 3](https://github.com/user-attachments/assets/9f3cf262-5c86-4a68-a0c8-8d5a59c0a8d6)
 
-## Promotional Video
+## Promotional Video（宣传影片）
 【Fighting Zombies 项目宣传片】 https://www.bilibili.com/video/BV1iKvKedENd/?share_source=copy_web&vd_source=e087937df2e43bbbc45fb92391165d1a
 
-## Technical Description Video
+## Technical Description Video（技术说明）
 【个人项目技术说明】 https://www.bilibili.com/video/BV1iKvKedE3j/?share_source=copy_web&vd_source=e087937df2e43bbbc45fb92391165d1a
 
 ### This is a first person action adventure game based on the Unity game engine, with the gameplay of defeating enemies and achieving goals.
@@ -20,11 +20,11 @@
 
 #### Configuration method: After pulling the project, open the project using Unity Hub
 
-#### The engineering files are sourced from assets in the Unity Asset Store, and their license agreements can be found in the Asset Store Terms of Service and EULA, attached to each file directory related to Resource Store assets.
+### The engineering files are sourced from assets in the Unity Asset Store, and their license agreements can be found in the Asset Store Terms of Service and EULA, attached to each file directory related to Resource Store assets.
 
-##### URL: https://unity.com/cn/legal/as-terms
+#### URL: https://unity.com/cn/legal/as-terms
 
 #### All GamePlay code scripts in the project are created by Marco_AF. Copyright Statement can be found on the License
 
-##### Personal homepage: https://github.com/MarcoAF02
-##### Technical guidance for performance optimization: https://github.com/lwwhb
+#### Personal homepage: https://github.com/MarcoAF02
+#### Technical guidance for performance optimization: https://github.com/lwwhb
