@@ -5,16 +5,16 @@ using System;
 namespace StartFramework.GamePlay.BehaviourTree
 {
 	/// <summary>
-	/// Node：所有节点的父节点，可以选择继承此节点扩展自己的叶节点，实现自己的叶节点逻辑。
+	/// Node：所有结点的父结点，可以选择继承此节点扩展自己的叶结点，实现自己的叶结点逻辑。
 	/// </summary>
 	public class Node
     {
         public enum Status { SUCCESS, RUNNING, FAILURE }
 
         public Status status;
-        public List<Node> children = new List<Node>(); // 当前节点的子节点
+        public List<Node> children = new List<Node>(); // 当前结点的子结点
         public int currentChildren = 0; // 编号
-        public string name; // 当前节点的名字
+        public string name; // 当前结点的名字
 
         public Node() { }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Mono 单例类
+// Mono 单例类（饱汉式）
 
 // 如果其他类有自己的 Awake() 和 OnDestroy()，记得这么写
 // private new void Awake()
